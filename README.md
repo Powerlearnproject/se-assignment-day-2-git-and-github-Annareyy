@@ -60,6 +60,7 @@ git push -u origin main
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
 Branching in Git allows developers to create separate lines of development within a project. This enables multiple features, bug fixes, or experiments to be developed independently without interfering with the main codebase.
+
 Main Branches:
 . main (or master): The stable production-ready branch.
 . develop: Often used in teams to integrate changes before merging into main.
@@ -95,17 +96,21 @@ Encourages collaborative workflows, often in combination with pull requests.
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
 A pull request is whereby a proposal is made to merge a set of changes from one branch into another. It facilitates code review and collaboration by:
+
 Encouraging peer review before changes are merged.
 Allowing discussion and feedback via comments.
 Enabling CI/CD pipelines to automatically test code before merging.
 Preventing direct commits to the main branch, ensuring stability.
+
 Steps in creating and merging a pull request are as follows:
+
 Creating a Pull request
 Step 1- Login to Github and navigate to the main page of the repository.
 Step 2- In the "Branch" menu, choose the branch that contains your commits.
 Step 3- Above the list of files, in the yellow banner, click Compare & pull request to create a pull request for the associated branch.
 Step 4- Select the branch you want to merge your changes into.
 Step 5- Write the title and description the click on create pull request. 
+
 Merging a Pull request.
 Step 1 -Under repository name click on pull requests.
 Step 2- In the pull requests list select the pull request you'd like to merge.
@@ -136,6 +141,7 @@ Importance of Issues and project boards include:
  - Classification labels (such as "bug," "high priority")
  - Tasks assigned to particular team members
  - Remarks for discussion and status reports
+
 Example : a developer discovers a memory leak in a project and declares it a "bug."  A specific contributor is assigned to the problem, and they keep it updated with progress notes until it is fixed.
  2. Using Project Boards to Improve Project Organization
    
