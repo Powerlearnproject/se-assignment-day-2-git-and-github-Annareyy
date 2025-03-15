@@ -129,6 +129,7 @@ Differences between forking and cloning
 Issues and Project Boards are two of GitHub's project management tools that assist teams in managing tasks, tracking defects, and becoming more organized.  These tools are crucial for preserving openness, improving teamwork, and expediting software development processes.
 Importance of Issues and project boards include:
  1. Monitoring bugs
+
  A project's bugs can be tracked and documented in an organized manner with GitHub Issues.  Every problem may consist of:
  - A thorough explanation of the issue.
  - How to replicate the issue
@@ -136,7 +137,8 @@ Importance of Issues and project boards include:
  - Tasks assigned to particular team members
  - Remarks for discussion and status reports
 Example : a developer discovers a memory leak in a project and declares it a "bug."  A specific contributor is assigned to the problem, and they keep it updated with progress notes until it is fixed.
-2. Using Project Boards to Improve Project Organization
+ 2. Using Project Boards to Improve Project Organization
+   
  A Kanban-style interface for graphically tracking work is offered by GitHub Project Boards.  These boards are made up of columns like:
  To Do: Enumerates unfinished business
  Done: Contains finished jobs
@@ -144,7 +146,8 @@ Example : a developer discovers a memory leak in a project and declares it a "bu
  A clear picture of the state of the project can be obtained by moving cards that represent problems or tasks between columns.
 
 Example : The GitHub Project Board, for instance, has the columns "Backlog," "In Development," "Testing," and "Completed." The team is using this board to construct a web application.  Developers keep the team in sync by moving corresponding cards to represent progress as they complete assignments.
-3. Improving Collaboration
+ 3. Improving Collaboration
+
 By centralizing discussions, assignments, and progress tracking, GitHub Issues and Project Boards help teams:
 Maintain accountability by assigning tasks to specific members.
 Reduce miscommunication through clear documentation and updates.
@@ -156,7 +159,7 @@ Example: An open-source project uses Issues to allow contributors to propose fea
 
 Common Challenges:
  Merge conflicts occur when numerous modifications affect the same file.
- Forgetting to Pull Before Pushing: Causes differences between local and remote repositories.
+ Forgetting to Pull Before Pushing causing differences between local and remote repositories.
  Not using descriptive commit messages reduces clarity.
 
  Best practices:
